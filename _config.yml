@@ -104,11 +104,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "cs Jo"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : "CS Jo"
+  avatar           : "/assets/images/20240302_140854.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **Chief Engineer** at ED&C."
   location         : "Seoul, KOREA"
-  email            :
+  email            : "cs.jo@ednc.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
