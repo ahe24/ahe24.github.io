@@ -3,8 +3,18 @@ layout: home
 author_profile: true
 ---
 
-<div class="blog-index">  
-  {% assign post = site.posts.first %}
-  {% assign content = post.content %}
-  {% include post_detail.html %}
-</div>
+<div id="post-list">
+
+  {% for post in posts %}
+  
+    <div class="post-preview">
+      <h1>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </h1>
+  
+      <div class="post-content">
+        <p>
+          {% include no-linenos.html content=post.content %}
+          {{ content | markdownify | strip_html | truncate: 200 | escape }}
+        </p>
+      </div>
