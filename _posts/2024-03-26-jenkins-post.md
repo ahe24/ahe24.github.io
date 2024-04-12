@@ -1,5 +1,5 @@
 ---
-title: "Install Jenkins!"
+title: "Install Jenkins Post!"
 date: 2024-03-26 08:26:28 -0400
 categories: Jenkins
 ---
@@ -12,7 +12,7 @@ Jenkins의 저장소 추가시 인증서 에러가 발생할 경우를 대비해
 # yum -y install ca-certificates
 ```
 
-![install ca-cert](<../assets/images/Pasted image 20240318080718.png>)
+![install ca-cert](<../assets/images/ca_cert_install.png>)
 
 ## 패키지 저장소 추가
 
@@ -22,7 +22,7 @@ Jenkins의 저장소 추가시 인증서 에러가 발생할 경우를 대비해
 # wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
 ```
 
-![Jenkins의 패키지 저장소](<../assets/images/Pasted image 20240318081203.png>)
+![Jenkins의 패키지 저장소](<../assets/images/add_repo.png>)
 
 ## GPG 키 추가
 
@@ -69,4 +69,4 @@ $ cat jenkins_id_rsa.pub >> authorized_keys
 
 - Dashboard > Jenkins 관리 > Security
   
-![alt text](<../assets/images/Pasted image 20240318155606.png>)
+![alt text](<../assets/images/conf_jenkins.png>)
