@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Install Jenkins Post!"
+title: "Install Jenkins!"
 date: 2024-03-26 08:26:28 +0900
 categories: Jenkins
 ---
