@@ -9,7 +9,7 @@ categories: Jenkins
 
 Jenkins의 저장소 추가시 인증서 에러가 발생할 경우를 대비해 루트 인증서를 설치 합니다.
 
-```
+```console
 # yum -y install ca-certificates
 ```
 
@@ -19,7 +19,7 @@ Jenkins의 저장소 추가시 인증서 에러가 발생할 경우를 대비해
 
 이제 Jenkins의 패키지 저장소를 추가합니다.
 
-```
+```console
 # wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
 ```
 
@@ -29,7 +29,7 @@ Jenkins의 저장소 추가시 인증서 에러가 발생할 경우를 대비해
 
 그런 다음 Jenkins GPG 키를 다음과 같이 추가 합니다.
 
-```
+```console
 # rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
 ```
 
@@ -37,7 +37,7 @@ Jenkins의 저장소 추가시 인증서 에러가 발생할 경우를 대비해
 
 Jenkins 최신 버전은 JAVA 11 이상에서 구동됨.
 
-```
+```console
 # curl -L https://corretto.aws/downloads/latest/amazon-corretto-11-x64-linux-jdk.rpm -o jdk11.rpm 
 
 # yum install jdk11.rpm 
@@ -45,7 +45,7 @@ Jenkins 최신 버전은 JAVA 11 이상에서 구동됨.
 
 ### 버전 확인
 
- ```
+```console
 # java -version 
 ```
 
@@ -59,7 +59,7 @@ csjo / c96..s
 
 ## SSH key gen for Jenkins account
 
-```
+```console
  $ sudo -u jenkins ssh-keygen
  $ cp /var/lib/jenkins/.ssh/id_rsa.pub /home/git/.ssh/jenkins_id_rsa.pub
  $ cd /home/git/.ssh/
