@@ -18,4 +18,3 @@ categories: jenkins
 아래와 같이 설정하거나 workspace 폴더의 내용을 제거한다.
 
 ![jenkins_global_env](</assets/img/jenkins_global_env1.png>)
-
