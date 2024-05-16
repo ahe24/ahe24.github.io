@@ -6,12 +6,13 @@ categories: jenkins
 ---
 ### Jenkins 툴 연동시 Out of Memory 오류
 
-```Console
+```sh
 # *** Could not allocate 44278 gigabytes
 # Fatal   : Out of memory. [system-0]
 #         : Executable aborted.
 # 
 ```
+{: .nolineno }
 
 ### Global Properties 설정
 
