@@ -2,7 +2,9 @@
 layout: post
 title: "Install Jenkins!"
 date: 2024-03-26 08:26:28 +0900
-categories: Jenkins
+author: cs jo
+category: [jenkins, Install]
+tags: [jenkins]
 ---
 
 ## 루트 인증서 설치
