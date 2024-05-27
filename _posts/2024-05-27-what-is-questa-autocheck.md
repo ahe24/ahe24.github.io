@@ -18,12 +18,13 @@ mermaid: true
 
 ### :microscope: Autocheck 검증 영역
 
-* RTL 수준 버그 : 시뮬레이션과 합성 불일치 (클럭 지연 등)
+* RTL 수준 버그 : 시뮬레이션과 합성 불일치 (합성을 고려하지 않은 잘못된 코드, 클럭 지연 등)
 * Netlist 수준 버그 : Netlist 특정 구성 요소 (Combinational Loop, Bus conflict 등)
 * Functional 수준 버그 : 순차적 로직에 대한 복합적인 기능적 버그 (Dead Code, Deadlock 등)
 
 ## :computer: Questa AutoCheck GUI
 
-* :point_down: 아래 그림과 같이 테스트벤치 없이도 코드를 분석하여 기능적 잠재 오류 검출하여 해당 코드 및 회로 구조를 연동하여 보여준다.
+> 아래 :point_down: 그림과 같이 테스트벤치 없이도 코드를 분석하여 잠재적 기능 오류를 검출하여 해당 코드 및 회로 구조를 연동하여 보여준다.
+{: .prompt-info }
 
 ![Questa AutoCheck GUI](</assets/img/240527/240527_ac1.png>)
