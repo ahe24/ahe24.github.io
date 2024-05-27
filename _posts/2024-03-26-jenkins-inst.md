@@ -57,7 +57,7 @@ Jenkins 최신 버전은 JAVA 11 이상에서 구동됨.
 
 ## Jenkins My Admin user
 
-csjo / c96..s
+user_id / user_password  결정 후 입력
 
 ## SSH key gen for Jenkins account
 
