@@ -24,3 +24,6 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 # jekyll compose
 gem 'jekyll-compose', '~> 0.12.0'
+
+# jemoji
+gem "jemoji"
