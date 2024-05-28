@@ -2,7 +2,7 @@
 layout: post
 title: What is Questa AutoCheck
 date: 2024-05-27 11:18 +0900
-description:
+description: Powerful bug hunting tool without testbench for RTL Code.
 category: [EDA, Formal]
 tags: [Questa, Autocheck]
 pin: false
