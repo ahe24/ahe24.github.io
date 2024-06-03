@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://ahe24.github.io/sitemap.xml
+Sitemap: https://ahe24.github.io/sitemap.xml
