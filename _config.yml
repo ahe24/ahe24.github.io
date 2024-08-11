@@ -238,4 +238,5 @@ jekyll_compose:
       mermaid: true
 
 plugins:
-  - jemoji      
+  - jemoji 
+  - jekyll-sitemap     

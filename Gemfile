@@ -27,3 +27,6 @@ gem 'jekyll-compose', '~> 0.12.0'
 
 # jemoji
 gem "jemoji"
+
+# jekyll sitemap generator
+gem 'jekyll-sitemap'
