@@ -33,7 +33,7 @@ mermaid: true
 - 결함에 대한 재현이 어렵다.
 - 디버깅 또한 쉽지 않다.
 
-## :ballot_box_with_check: CDC 경로는Metastability를 야기한다.
+## :ballot_box_with_check: CDC 경로는Metastability를 야기한다
 
 - CDC(Cross-Domain Clock) 신호가 수신 도메인의 레지스터의 Setup time이나 Hold time 사이에 값이 변할 때 수신 레지스터는 메타스테이블 상태가 될 수 있다.
   - 메타스테이블 상태는 예측할 수 없는 시간 후에 임의의 값으로 설정됨
