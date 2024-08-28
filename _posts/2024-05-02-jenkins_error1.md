@@ -2,8 +2,7 @@
 layout: post
 title:  "Jenkins Out of memory"
 date:   2024-05-02 15:37:29 +0900
-description:
-author: cs jo
+description: Jenkins 툴 연동시 오류 문제
 category: [jenkins, Install]
 tags: [jenkins]
 pin: false

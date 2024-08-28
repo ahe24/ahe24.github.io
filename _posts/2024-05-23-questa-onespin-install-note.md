@@ -2,7 +2,7 @@
 layout: post
 title: Questa OneSpin Install Note
 date: 2024-05-23 08:39 +0900
-description:
+description: After installation of OneSpin
 category: [EDA, Installation]
 tags: [Questa, Onespin]
 pin: false
@@ -10,7 +10,7 @@ math: true
 mermaid: true
 ---
 
-## One Spin 360 설치 후 
+## One Spin 360 설치 후
 
 OneSpin 360 설치 후 아래와 같이 환경 변수 추가 설정이 필요하다.
 
