@@ -4,7 +4,7 @@
   <!-- markdownlint-disable-next-line -->
   # Nabisun's Logic World
 
-  To post what I want to share, remember and show 
+  To post what I want to share, remember and show
 
 </div>
 
